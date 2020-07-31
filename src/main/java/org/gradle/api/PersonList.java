@@ -23,6 +23,6 @@ public class PersonList {
 
     public void doSomething() {
         date = new Date();
- System.out.println(Date);  
+ System.out.println(date);  
     }
 }
