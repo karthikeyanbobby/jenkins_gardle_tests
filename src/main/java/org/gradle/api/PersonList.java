@@ -14,12 +14,15 @@
  * limitations under the License.
  */
 
-import java.time.format.DateTimeFormatter;  
-import java.time.LocalDateTime;    
-public class CurrentDateTimeExample1 {    
-  public static void main(String[] args) {    
-   DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
-   LocalDateTime now = LocalDateTime.now();  
-   System.out.println(dtf.format(now));  
-  }    
-}    
+package org.gradle.api;
+
+import java.util.Date;
+
+public class PersonList {
+    private Date date = null;
+
+    public void doSomething() {
+        date = new Date();
+ System.out.println(Date);  
+    }
+}
